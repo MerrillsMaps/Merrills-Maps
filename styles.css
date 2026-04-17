@@ -58,6 +58,16 @@ ul li a:hover {
   font-size: 16px;
   cursor: pointer;
 }
+
+.close-btn2{
+  position: sticky;
+  top: 5px;
+  right: 8px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
 .button {
   background:#720342 15px 32px;
   padding: 15px 32px;
@@ -80,6 +90,7 @@ ul li a:hover {
   font-style: normal;
   font-size: 10px;
 }
+
 .popover{
   background-image: url(paper-background-1.jpeg);
   background-size: 500%;
@@ -94,8 +105,7 @@ ul li a:hover {
   background-image: url(paper-background-1.jpeg);
   background-size: 500%;
   background-position: center;
-  width: 1000px;
-  height: 600px;
+  width: 100%;
   position: fixed;
   padding: 20px;
 }
